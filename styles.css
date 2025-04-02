@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .header {
-    background-image: url('ogimage.png');
+    background-image: url('header.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
