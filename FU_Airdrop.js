@@ -1,4 +1,4 @@
-const walletData = {
+window.walletData = {
     "wallets": {
         "0xb0e9bc2d81856b46d0d0f7217435791c80df0808": 7,
         "0xf8149a8a780b21117d3e253510b4a23a4ce308d8": 7,

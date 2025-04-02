@@ -6,7 +6,7 @@ body {
     background-image: url('ogimage.png');
     background-size: cover;
     background-position: center;
-    height: 98vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +31,12 @@ body {
     display: block;
     text-align: center;
     border-radius: 35px;
+    cursor: pointer;
+  }
+
+.primary_button:hover {
+    color: #fff;
+    background: #000
   }
 
 @media (max-width: 600px) {
