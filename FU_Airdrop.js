@@ -1,14 +1,3 @@
-$(document).ready(function() {
-    $('#checkButton').click(function() {
-        const wallet = $('#walletInput').val().trim();
-        if (walletData.wallets.hasOwnProperty(wallet)) {
-            $('#result').text(`Congrats! Your wallet will receive ${walletData.wallets[wallet]} FU airdropped.`);
-        } else {
-            $('#result').text("Sorry, your wallet is not eligible.");
-        }
-    });
-});
-
 const walletData = {
     "wallets": {
         "0xb0e9bc2d81856b46d0d0f7217435791c80df0808": 7,
